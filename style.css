@@ -76,3 +76,17 @@ header{
     color: aliceblue;
     transition: 500ms;
 }
+
+.cards{
+    max-width: 800px;
+    margin: 20px auto;
+}
+.card{
+    background-color: #2F2836;
+}
+.card_image img{
+    width: 100%;
+}
+.card_content,.card_info{
+    padding: 18px;
+}
