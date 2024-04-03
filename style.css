@@ -90,3 +90,15 @@ header{
 .card_content,.card_info{
     padding: 18px;
 }
+.card_info{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.card_price{
+    background-color: #271e2f;
+    filter: brightness(90%);
+    padding: 5px 20px;
+    border-radius: 20px;
+    text-align: center;
+    color: aliceblue;
+}
