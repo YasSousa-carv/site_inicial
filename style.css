@@ -80,6 +80,10 @@ header{
 .cards{
     max-width: 800px;
     margin: 20px auto;
+    color: aliceblue;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    gap: 20px;
 }
 .card{
     background-color: #2F2836;
