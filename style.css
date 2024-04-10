@@ -106,3 +106,28 @@ header{
     text-align: center;
     color: aliceblue;
 }
+.modal_overlay{
+    background-color: #281935;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+}
+.modal{
+    background-color: #2F2836;
+    width: 90%;
+    height: 90%;
+    margin: 5vh  auto;
+    position: relative;
+}
+.modal.close_modal span {
+    color: aliceblue;
+    position: absolute;
+    right: 8px;
+    top: 8px;
+    cursor: pointer;
+}
+.modal_overlayactive{
+    opacity: 1;
+    visibility: visible;
+}
